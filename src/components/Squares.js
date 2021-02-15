@@ -34,6 +34,9 @@ export default function Squares() {
     // as the argument matches the active square in state, empty string otherwise.
     // Right-click and "inspect element" on the square to see its effect.
     // console.log(id);
+    if(activeSquare === id){
+      return ' active';  
+    }
     return '';
   };
 
